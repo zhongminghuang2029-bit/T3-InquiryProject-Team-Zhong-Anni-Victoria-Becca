@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+
+#choice{
+    width:100vw ;
+    height:20vh ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choice-size{
+    width: 30%;
+    height: 100%;
+    background-color: aliceblue;
+    font-size: 2rem;
+    font-family:cursive;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 3rem;
+}
