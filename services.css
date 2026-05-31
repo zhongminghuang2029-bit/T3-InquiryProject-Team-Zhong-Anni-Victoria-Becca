@@ -6,4 +6,10 @@
 .nav{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-text{
+    border: black solid .5px;
+    padding: 2vw;
 }
