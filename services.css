@@ -13,3 +13,24 @@
     border: black solid .5px;
     padding: 2vw;
 }
+h1{
+    text-align: center;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+}
+.party-img{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+.desc-text{
+    align-items: flex-start;
+    justify-content: center;
+    border: black solid;
+}
+footer{
+    display: flex;
+    flex:1;
+}
