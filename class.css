@@ -20,6 +20,26 @@
 }
 
 h1{
-    font-family: cursive;
     font-size: 3rem;
 }
+
+body{
+        font-family: cursive;
+}
+
+#name{
+    display: flex;
+    gap: 3px;
+    font-size: 2rem;
+    flex-direction: row;
+}
+
+#Age{
+    display: flex;
+    font-size: 2rem;
+}
+
+#all{
+    flex-direction: column;
+}
+
