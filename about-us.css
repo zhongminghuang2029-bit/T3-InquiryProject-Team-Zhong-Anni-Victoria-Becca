@@ -3,3 +3,24 @@
     margin: 0;
     padding: 0;
 }
+
+.header{
+    display:flex;
+    justify-content:center;
+    color:rgb(255, 255, 116);
+    width:60vw;
+    height:5vh;
+}
+.main1{
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    border:rgb(90, 197, 205);
+}
+.sidebar{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    justify-content:flex-end;
+    
+}
