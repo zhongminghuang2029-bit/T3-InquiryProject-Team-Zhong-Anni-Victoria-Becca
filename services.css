@@ -28,9 +28,15 @@ h1{
 .desc-text{
     align-items: flex-start;
     justify-content: center;
-    border: black solid;
 }
 footer{
     display: flex;
-    flex:1;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
 }
