@@ -37,8 +37,10 @@ body{
 #Age{
    font-size: 2rem;
    flex-direction: row;
-    display: flex;
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 
 
@@ -64,10 +66,21 @@ p{
 
 #Submit{
     font-size: 3rem;
+    display: flex;
     align-items: center;
     font-family: cursive;
     text-align: center;
-    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:100%;
+}
+
+#submit-button{
+   width:200px;
+   height:60px;
+   background-color: navy;
+   color:aliceblue;
 }
 
 footer{
