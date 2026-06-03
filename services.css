@@ -2,12 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: cursive;
 }
 .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: gray;
 }
 .nav-text{
     border: black solid .5px;
@@ -15,6 +17,7 @@
 }
 h1{
     text-align: center;
+    background-color: bisque;
 }
 .service{
     display: flex;
@@ -39,4 +42,17 @@ div{
     align-items: center;
     justify-content: space-around;
     height: 50vh;
+    background-color:cornflowerblue;
+}
+
+button{
+    background-color:darkgoldenrod;
+}
+p{
+    width: 20%;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;    
 }
