@@ -3,3 +3,78 @@
     margin: 0;
     padding: 0;
 }
+
+button{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.picture {
+    width: 100vw;
+    height: 90vh;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-text{
+    border: black solid .5px;
+    padding: 2vw;
+}
+
+.image-2 {
+    width: 20vw;
+    height: 20vh;
+}
+
+.main-section {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-image {
+    width: 50%;
+    height: 100%
+}
+
+.main-text {
+    width: 50%;
+    height: 100%;
+}
+
+.image-1 {
+    width: 45vw;
+    height: 100%;
+}
+
+.options-style{
+    display: flex;
+    flex-direction: row;
+}
+
+.options-pictures {
+    width: 33vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    margin: 100px;
+}
