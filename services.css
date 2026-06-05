@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: gray;
+    background-color:darksalmon;
 }
 .nav-text{
     border: black solid .5px;
@@ -46,10 +46,12 @@ div{
 }
 
 button{
-    background-color:darkgoldenrod;
+    background-color:lightblue;
+    width: 33%;
+    height: 10%;
 }
 p{
-    width: 20%;
+    width: 30%;
 }
 
 .footer-column{
